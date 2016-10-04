@@ -1,0 +1,25 @@
+graph {
+	"Oradea" -- "Sibiu"[label="151"];
+	"Oradea" -- "Zerind"[label="71"];
+	"Zerind" -- "Arad"[label="75"];
+	"Arad" -- "Timisoara"[label="118"];
+	"Arad" -- "Sibiu"[label="140"];
+	"Timisoara" -- "Lugoj"[label="111"];
+	"Lugoj" -- "Mehadia"[label="70"];
+	"Mehadia" -- "Drobeta"[label="75"];
+	"Drobeta" -- "Craiova"[label="120"];
+	"Craiova" -- "Rimnicu Vilcea"[label="146"];
+	"Craiova" -- "Pitesti"[label="138"];
+	"Sibiu" -- "Fagaras"[label="99"];
+	"Rimnicu Vilcea" -- "Sibiu"[label="80"];
+	"Fagaras" -- "Bucharest"[label="211"];
+	"Rimnicu Vilcea" -- "Pitesti"[label="97"];
+	"Pitesti" -- "Bucharest"[label="101"];
+	"Bucharest" -- "Giurgiu"[label="90"];
+	"Bucharest" -- "Urziceni"[label="85"];
+	"Urziceni" -- "Hirsova"[label="98"];
+	"Hirsova" -- "Eforie"[label="86"];
+	"Urziceni" -- "Vaslui"[label="142"];
+	"Vaslui" -- "Iasi"[label="92"];
+	"Iasi" -- "Neamt"[label="87"];
+}
